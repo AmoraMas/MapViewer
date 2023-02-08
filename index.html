@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script defer src="index.js"></script>
+
+    <title>map Viewer</title>
+</head>
+
+<body>
+    <div class="everything">
+        <div class='title'>
+            <h1>Colorado Springs Map</h1>
+        </div>
+        <div class="controls-1">
+            <button id="showCoords">Show Coords</button>
+            <button id="showNone">Reset All</button>
+        </div>
+        <div class="controls-2">
+            <button id="showAirports">Show Airports</button>
+            <button id="showBases">Show Bases</button>
+            <button id="showHome">Show Home</button>
+        </div>
+        <div class="controls-3">
+            <button id="showRandomUS">Random USA</button>
+            <button id="showRandomWorld">Random World</button>
+        </div>
+        <div id="map">
+
+        </div>
+    </div>
+    <div class="license">
+        <div class="license-left">
+            <a href="https://commons.wikimedia.org/wiki/File:Pikes_Peak_from_Colorado_Springs_by_David_Shankbone.jpg">David
+                Shankbone</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia
+            Commons
+        </div>
+        <div class="license-right">
+            <a href="https://commons.wikimedia.org/wiki/File:High_Plains_P5310708.jpg">Chris Light</a>, <a
+                href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+        </div>
+    </div>
+</body>
+
+</html>

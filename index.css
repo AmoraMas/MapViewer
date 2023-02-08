@@ -1,0 +1,51 @@
+body {
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.everything {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+button {
+    height: 30px;
+    width: 110px;
+}
+
+#map {
+    height: 750px;
+    width: 500px;
+}
+
+.license-left {
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+.license-right {
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+#showCoords {
+    background: red;
+}
+
+#showNone {
+    background: grey;
+}
