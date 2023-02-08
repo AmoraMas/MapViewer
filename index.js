@@ -112,13 +112,13 @@ function randomUS() {
 }
 
 
-
 function randomWorld() {
     let lat = randomCoord(180);
     let long = randomCoord(180);
 
     map.setView([lat, long], 8);
 }
+
 
 /* 
     START CODE HERE
